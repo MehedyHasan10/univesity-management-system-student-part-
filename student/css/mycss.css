@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f3d8a5;
+  font-family: sans-serif;
+}
+select {
+  background-color: lightskyblue;
+  font-weight: bold;
+  font-size: 15px;
+  margin-right: 20pt;
+}
+
+.box {
+  background-color: rgb(253, 244, 231);
+  border-radius: 10px;
+  left: 35%;
+  top: 10%;
+  position: absolute;
+  box-sizing: border-box;
+  padding-top: 5pt;
+  padding-left: 15pt;
+}
+.login {
+  width: 400px;
+  height: 500px;
+}
+.registration {
+  width: 600px;
+  height: 750px;
+}
+.security {
+  width: 400px;
+  height: 450px;
+  top: 20%;
+}
+.forTution {
+  width: 700px;
+  height: 550px;
+  top: 20%;
+  left: 30%;
+}
+.home {
+  width: 1200px;
+  height: 550px;
+  top: 20%;
+  left: 10%;
+}
+
+.image {
+  width: 100px;
+  height: 80px;
+  position: absolute;
+  top: -50px;
+  left: 40%;
+}
+.back {
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  left: 0%;
+}
+.header {
+  text-align: center;
+  font-size: 25pt;
+  font-weight: bolder;
+  color: royalblue;
+}
+.font {
+  margin: 0pt;
+  padding: 0pt;
+  
+  font-size: 15pt;
+}
+
+input[type="text"],
+[type="password"],
+[type="date"] {
+  font-size: 110%;
+  text-align: center;
+  width: 85%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-color: lightskyblue;
+  margin-bottom: 25 px;
+  background: transparent;
+  outline: none;
+}
+.button {
+  width: 95%;
+  margin-top: 15pt;
+  border: none;
+  border-radius:100px;
+  padding: 10px 15px;
+ 
+  
+
+}
+
+ 
+
+.submit {
+  background: lightskyblue;
+}
+.submit:hover {
+  cursor: pointer;
+  background: cornflowerblue;
+}
+
+
+.delete {
+  background-color: rgb(189, 88, 88);
+  color: rgb(240, 230, 230);
+}
+.delete:hover {
+  cursor: pointer;
+  background: rgb(192, 35, 35);
+}
+
+.search input[type="text"] {
+  width: 20%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("../resources/search.png");
+  background-size: 15%;
+  background-position: -1px -1px;
+  background-repeat: no-repeat;
+  padding: 5px 20px 5px 20px;
+  margin-right: 90px;
+}
+
+#register {
+  font-size: 15pt;
+  color: brown;
+  text-align: right;
+  margin-right: 10pt;
+  text-decoration: none;
+  font-weight: bolder;
+  position: absolute;
+  top: 85%;
+  right: 10px;
+}
+#error {
+  color: red;
+  text-align: center;
+}
+.jserror p {
+  color: crimson;
+}
+
+.navigation {
+  background-color: #708090;
+  font-size: 20px;
+  font-weight: bold;
+  position: sticky;
+  box-sizing: border-box;
+  padding-top: 5pt;
+  padding-left: 15pt;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+.navigation a {
+  color: #deeeee;
+  margin-right: 15px;
+  text-decoration: none;
+  padding-bottom: 10px;
+}
+.navigation a:hover {
+  color: #d4f7f6;
+}
+.logout {
+  position: absolute;
+  right: 10px;
+}
+#showinfo {
+  display: inline;
+  padding-left: 30pt;
+  font-weight: bold;
+  font-size: 20px;
+}
+.hideshow {
+  background: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: indigo;
+}
+span {
+  font-size: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+
+.footer{
+  background-color:black; 
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  
+  position: sticky;
+  box-sizing: border-box;
+  padding-top: 5pt;
+  padding-left: 15pt;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  position:relative;
+
+}
